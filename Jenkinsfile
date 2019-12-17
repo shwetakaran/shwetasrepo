@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('MergeDev1toQA') {
+    stage('MergeDev1toQa1') {
       steps {
-        git(url: 'https://github.com/shwetakaran/shwetasrepo.git', branch: 'dev1', credentialsId: 'sk-git-credentials')
+        echo 'I am in Stage MergeDev1toQa1'
       }
     }
 
