@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('MergeDev1toQa1') {
+    stage('InitP') {
       steps {
-        echo 'I am in Stage MergeDev1toQa1'
+        echo 'I am initing'
       }
     }
 
