@@ -1,16 +1,4 @@
 pipeline {
-  agent any
-  stages {
-    stage('InitP') {
-      agent any
-      steps {
-        echo 'I am initing'
-      }
-    }
-
-  }
-}
-pipeline {
     agent any
 
     stages {
